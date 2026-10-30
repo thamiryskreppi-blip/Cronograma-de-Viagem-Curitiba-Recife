@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronograma de Viagem - Curitiba Recife</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cronograma de viagem Curitiba Recife</h1>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Categoria</th>
+          <th>Preço</th>
+          <th>Quantidade</th>
+          <th>Valor final</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Passagem de avião</td>
+          <td class="preco" data-valor="1300">R$ 1.300,00</td>
+          <td class="qtd">1</td>
+          <td class="valor-final">R$ 1.300,00</td>
+        </tr>
+        <tr>
+          <td>Hospedagem</td>
+          <td class="preco" data-valor="200">R$ 200,00</td>
+          <td class="qtd">5</td>
+          <td class="valor-final">R$ 1.000,00</td>
+        </tr>
+        <tr>
+          <td>Alimentação</td>
+          <td class="preco" data-valor="100">R$ 100,00</td>
+          <td class="qtd">5</td>
+          <td class="valor-final">R$ 500,00</td>
+        </tr>
+        <tr>
+          <td>Transporte</td>
+          <td class="preco" data-valor="50">R$ 50,00</td>
+          <td class="qtd">3</td>
+          <td class="valor-final">R$ 150,00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" class="total-label">Total</td>
+          <td id="valor-total">R$ 0,00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
